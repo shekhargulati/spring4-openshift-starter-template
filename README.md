@@ -14,7 +14,7 @@ After application is created, you can test the one REST resource exposed by appl
 
 ## Local Build
 
-Before building, please ensure you have the `TOMCAT\_HOME` environment variable configured.
+Before building, please ensure you have the `TOMCAT_HOME` environment variable configured.
 
 Building requires specifying the `local` profile. For example:
 
