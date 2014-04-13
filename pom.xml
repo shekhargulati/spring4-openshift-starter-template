@@ -41,7 +41,7 @@
 						<version>2.3</version>
 						<configuration>
 							<failOnMissingWebXml>false</failOnMissingWebXml>
-							<outputDirectory>/Users/shekhargulati/tools/tomcat/tomcat-7.0.42/webapps</outputDirectory>
+							<outputDirectory>${env.TOMCAT_HOME}/webapps</outputDirectory>
 						</configuration>
 					</plugin>
 				</plugins>
