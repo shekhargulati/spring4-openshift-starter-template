@@ -3,3 +3,9 @@ target
 .classpath
 .project
 bin
+
+# IntelliJ IDE Files
+*.iml
+*.ipr
+*.iws
+
