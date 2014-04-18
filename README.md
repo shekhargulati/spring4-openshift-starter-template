@@ -10,7 +10,7 @@ To deploy the project, run the following command.
 $ rhc app-create springapp tomcat-7 --from-code https://github.com/shekhargulati/spring4-openshift-starter-template.git
 ```
 
-After application is created, you can test the one REST resource exposed by application at http://springapp-shekhar007.rhcloud.com/api/v1/ping.
+After application is created, you can test the one REST resource exposed by application at http://springapp-{{domain-name}}.rhcloud.com/api/v1/ping. Please replace {{domain-name}} with your OpenShift account domain name.
 
 ## Local Build
 
